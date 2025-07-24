@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_readme"
+        android:title="@string/readme"
+        android:icon="@android:drawable/ic_menu_info_details" />
+    
+    <item
+        android:id="@+id/action_file_bug"
+        android:title="@string/file_bug"
+        android:icon="@android:drawable/ic_menu_report_image" />
+        
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/exit_app"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+</menu>

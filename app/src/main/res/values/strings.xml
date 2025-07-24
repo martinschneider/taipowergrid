@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taiwan Power Coordinates Tool</string>
+    <string name="scan_button">Scan Power Pole</string>
+    <string name="show_on_map">Show on Map</string>
+    <string name="finding_coordinates">Finding coordinates...</string>
+    <string name="no_coordinates_detected">No coordinates detected. Try again!</string>
+    <string name="camera_permission_denied">Camera permission not granted by the user.</string>
+    <string name="image_processing_error">Error while processing image</string>
+    <string name="empty_coordinates_error">Please enter coordinates</string>
+    <string name="invalid_coordinate_format">Invalid coordinate format. Please use format like \'G8152 FC56\'</string>
+    <string name="no_maps_app">No maps app available</string>
+    <string name="readme">About</string>
+    <string name="file_bug">File a bug</string>
+    <string name="exit_app">Exit</string>
+    
+    <!-- Tutorial strings -->
+    <string name="tutorial_introduction"><![CDATA[<p>Taiwan\'s power company uses a coordinate system to mark the location of its electricity poles and boxes.</p><p>Today, these are still useful as a positioning tool - an offline alternative to GPS.</p><p>With this app you can take a photo of such coordinates and display their location on a map.</p><p>Look for blue plates mounted on electricity poles or coordinates printed on the front or the foundation of electricity boxes.</p><p>Alternatively, you can also enter \"Taiwan Power\" coordinates by hand.</p><p>Check <a href="https://www.jidanni.org/geo/taipower/">Dan Jacobson\'s web page</a> for more details and a history of this locationing system.</p><p>This is a hobby project and in no way associated with Taipower.</p><p>Results are <a href="https://wiki.osgeo.org/wiki/Taiwan_Power_Company_grid#.E8.AD.A6.E5.91.8A_Warnings">not always accurate</a>. Always combine multiple coordinates and cross-check with other landmarks!</p><p><b>Have fun!</b></p>]]></string>
+    
+    <!-- Bug report strings -->
+    <string name="bug_report_subject">Bug Report: %1$s</string>
+    <string name="support_email">taipowergrid@5164.at</string>
+    <string name="gmail_package">com.google.android.gm</string>
+    <string name="fileprovider_suffix">.fileprovider</string>
+    <string name="file_extension_jpg">.jpg</string>
+    
+    <string name="geo_uri_with_label_format">geo:%1$f,%2$f?q=%1$f,%2$f(%3$s)</string>
+    <string name="taipower_label_format">Taipower %1$s</string>
+    <string name="send_bug_report_chooser">Send bug report via email</string>
+    <string name="no_email_app_available">No email app available</string>
+    <string name="no_log_messages_found">No log messages found.</string>
+    <string name="failed_to_collect_logcat">Failed to collect logcat messages: %1$s</string>
+    <string name="images_folder">images</string>
+    <string name="validation_error_space"> </string>
+    <string name="logcat_time_format">yyyy-MM-dd-HH-mm-ss-SSS</string>
+    <string name="rfc822_type">message/rfc822</string>
+    <string name="manual_entry_description">Manual entry</string>
+    <string name="close_description">Close</string>
+    <string name="start_camera_description">Start camera</string>
+    <string name="detected_coordinates_title">Taiwan Power Coordinates</string>
+    <string name="coordinate_hint">G8152 FC56</string>
+    <string name="regex_clean_pattern">[^A-Z0-9\\s]</string>
+    <string name="newline_replacement"> </string>
+</resources>
