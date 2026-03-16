@@ -2,11 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Camera permissions -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" android:required="true" />
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-
 
     <application
         android:allowBackup="true"
@@ -19,14 +17,8 @@
         android:theme="@style/Theme.TaipowerGridScanner"
         tools:targetApi="31">
 
-
-        <!-- ML Kit automatically downloads models -->
-        <meta-data
-            android:name="com.google.mlkit.vision.DEPENDENCIES"
-            android:value="ocr" />
-
         <activity
-            android:name=".CameraActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.TaipowerGridScanner">
@@ -35,7 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 
         <provider
             android:name="androidx.core.content.FileProvider"

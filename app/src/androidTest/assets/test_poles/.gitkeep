@@ -1,0 +1,6 @@
+Place real power-pole JPEG/PNG photos here for integration testing.
+Name each file after its expected coordinate with underscores for spaces:
+  G7825_FB24.jpg   →  expected coordinate "G7825 FB24"
+  H4292_BD23.jpg   →  expected coordinate "H4292 BD23"
+
+The OcrIntegrationTest will load these automatically.
